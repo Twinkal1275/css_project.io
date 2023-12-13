@@ -1,0 +1,484 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+#navbar
+{
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.nav
+{
+   width: 100%;
+   height: auto;
+}
+ul{
+    padding-left: 30%;
+    display: inline;
+}
+ul li{
+    padding: 30px;
+    display: inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all  .5s ease;
+}
+.nav ul li a:hover {
+    background-image: linear-gradient(#1095c1 0 0);
+    background-color: white;
+    color: black;
+    background-size: 100% .08em; /* .08em is our fixed height; modify as needed. */
+    background-position: /* ??? */;
+    background-repeat: no-repeat;
+    transition: background-size .3s, background-position .3s .3s;
+  hover2}
+  
+  
+.work{
+    background: url(image/car2.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.work h1{
+    font-size: 50px;
+    color: white;
+    padding-left: 25%;
+    padding-top: 10%;
+    margin: auto;
+}
+.work p{
+    font-size: 20px;
+    color: white;
+    padding: 3%;
+    padding-left: 30%;
+    width: 45%;
+}
+.btn
+{
+    background-color: deeppink;
+    color: white;
+    padding:20px 40px;
+    margin-left: 45%;
+}
+.btn:hover
+    {
+        box-shadow: 2px 2px 2px 2px white;
+    }
+#Services
+{
+    background-color: white;
+    padding: 3%;
+}
+.car
+{
+    width: 25%;
+    height: 260px;
+    background-color: black;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+}
+.car img
+{
+    width: 120%;
+    height: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    float: left;
+}
+.car1 h1
+{
+    width: 40%;
+    height: auto;
+    color: black;
+    margin-left: 15%;
+    float: left;
+}
+.car1 p{
+    width: 40% !important;
+    height: auto !important;
+    color: black;
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 20px;
+    float: left;
+}
+.car1 .btn{
+    width: 20%;
+    height: auto;
+    margin-left: 15%;
+    background-color: deeppink;
+    float: left;
+}
+.car1 .btn:hover
+    {
+        box-shadow: 2px 2px 2px 2px black;
+    }
+.service
+{
+    margin-left: 70%;
+    margin-top: 20%;
+}
+.service h3
+{
+    color: blue;
+    padding: 2%;
+    font-size: 30px;
+}
+.fa
+{
+    color: white;
+    background-color: deeppink;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+#lady
+{
+    background-color: black;
+    padding: 5% !important;
+}
+.lady1
+{
+    width: 30%;
+    height: 200px;
+    background-color: deeppink;
+    margin-left: 10%;
+    float: left;
+}
+.lady1 img
+{
+    width: 100%;
+    height: 200px;
+    margin-top: -10%;
+    margin-left: -10%;
+}
+.la{
+    margin: 3%;
+}
+
+.la h5
+{
+    color: white !important;
+    width: 40%;
+    height: auto;
+    margin-left: 0%;
+    font-size: 20px;
+    float: left;
+    margin-left: 25px;
+}
+.la h2{
+    color: deeppink;
+    width: 50%;
+    height: auto;
+    font-size: 25px;
+    float: left;
+    margin-left: 25px;
+}
+.la p
+{
+    width: 30%;
+    height: auto;
+    color: white;
+    font-size: 18px;
+    float: left;
+    margin-left: 25px;
+}
+.lady2 img{
+    width: 40%;
+    height: 300px;
+    margin-left: 50%;
+}
+.la2 h4
+{
+    width: 30%;
+    height: auto;
+    color: white;
+    margin-top: -20%;
+    margin-left: 10%;
+    font-size: 25px;
+}
+.la2 p{
+    width: 40%;
+    height: auto;
+    color: white;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.la2 .btn {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+
+/* mobile view */
+
+@media only screen and  (min-width:320px) and (max-width:480px) {
+    *
+    { 
+        overflow-x: hidden !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    body{
+        background-color: black !important;
+    }
+    #navbar
+    {
+        width: 100% !important;
+        height: auto !important;
+        color: white !important;
+    }
+    .nav
+    {
+       width: 100% !important;
+       height: auto !important;
+    }
+    ul{
+        padding-left: 30% !important;
+        /* display: inline; */
+        display: grid !important;
+        grid-row: auto auto !important;
+        display: block !important;
+    }
+    ul li{
+        padding: 30px !important;
+        /* display: inline-block; */
+    }
+    .nav ul li a{
+        text-decoration: none !important;
+        color: white !important;
+        padding: 8px 25px !important;
+        transition: all  .5s ease !important;
+    }
+    .nav ul li a:hover {
+        background-image: linear-gradient(#1095c1 0 0) !important;
+        background-color: white !important;
+        color: black !important;
+        background-size: 100% .08em !important; /* .08em is our fixed height; modify as needed. */
+        background-position: /* ??? */;
+        background-repeat: no-repeat !important;
+        transition: background-size .3s, background-position .3s .3s !important;
+    } 
+    .work{
+        background: url(image/car2.jpg) !important;
+        width: 100% !important;
+        height: 500px !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-size: cover !important;
+        clip-path: none !important;
+    }
+    .work h1{
+        font-size: 40px !important;
+        color: white !important;
+        padding-left: 25% !important;
+        padding-top: 10% !important;
+        margin: auto !important;
+    }
+    .work p{
+        font-size: 17px !important;
+        color: white !important;
+        padding: 3% !important;
+        padding-left: 25% !important;
+        width: 45% !important;
+    }
+    .btn
+    {
+        background-color: deeppink !important;
+        color: white !important;
+        padding:20px 40px !important;
+        margin-left: 25% !important;
+        border: none !important;
+
+    }
+    .btn:hover
+    {
+        box-shadow: 2px 2px 2px 2px white !important;
+    }
+    #Services
+    {
+        overflow-y: hidden !important;
+        background-color: white !important;
+        padding: 3% !important;
+        /* display: block !important; */
+    }
+    .car
+    {
+        width: 85% !important;
+        height: 260px !important;
+        background-color: black !important;
+        margin-left: 5% !important;
+        overflow-y: hidden !important;
+        position: relative !important;
+    }
+    .car img
+    {
+        width: 100% !important;
+        height: 200px !important;
+        margin: 10% !important;
+    }
+    .car1 h1
+    {
+       width: 70% !important;
+       height: auto !important;
+       color: black !important;
+       margin-top: 85% !important;
+       margin-left: -75% !important;
+       position: absolute !important;
+    }
+    .car1 p{
+       width: 80% !important;
+       height: auto !important;
+       color: black !important;
+       margin-top: 2% !important;
+       margin-left: 0% !important;
+       font-size: 20px !important;
+       position: absolute !important;
+       margin-left: -75% !important;
+       margin-top: 95% !important;
+
+
+    }
+   .car1 .btn
+    {
+      width: 70% !important;
+      margin-left: 5% !important;
+      background-color: deeppink !important;
+      position: absolute !important;
+      margin-left: -75% !important;
+      margin-top: 135% !important;
+      border: none !important;
+    }
+   .car1 .btn:hover
+    {
+        box-shadow: 2px 2px 2px 2px black !important;
+    }
+    .service
+    {
+       margin-left: 10px !important;
+       margin-top: 170% !important;
+    }
+    .service h3
+    {
+       color: blue !important;
+       padding: 2% !important;
+       font-size: 40px !important;
+    }
+    .fa
+    {
+      color: white !important;
+      background-color: deeppink !important;
+      padding: 10px !important;
+      font-size: 20px !important;
+      margin: 10px !important;
+   }
+   #lady
+   {
+      background-color: black !important;
+      padding: 5% !important;
+   }
+   .lady1
+   {
+      width: 80% !important;
+      height: 200px !important;
+      background-color: deeppink !important;
+      margin-left: 10% !important;
+   }
+ .lady1 img
+   {
+      width: 100% !important;
+      height: 200px !important;
+      margin-top: -5% !important;
+      margin-left: -10% !important;
+      position: relative !important;
+   }
+ .la h5
+ {
+    color: white !important;
+    width: 60% !important;
+    height: auto !important;
+    margin-left: -70% !important;
+    margin-top: 70% !important;
+    font-size: 20px !important;
+    position: absolute !important;
+ }
+ .la h2{
+    color: deeppink !important;
+    width: 60% !important;
+    height: auto !important;
+    font-size: 20px !important;
+    position: absolute !important;
+    margin-left: -70% !important;
+    margin-top: 80% !important;
+ }
+.la p
+{
+    width: 70% !important;
+    height: 250px !important;
+    margin-left: 2% !important;
+    margin-top: -60% !important; */
+    color: white !important;
+    font-size: 16px !important;
+    position: absolute !important;
+    margin-left: -70% !important;
+    margin-top: 90% !important;
+   
+}
+.lady2 img{
+    width: 70% !important ;
+    height: 270px !important;
+    position: absolute !important;
+    margin-left: -70% !important;
+    margin-top: 120% !important;
+   
+}
+.la2 h4
+{
+    width: 60% !important;
+    height: auto !important;
+    color: white !important;
+    margin-top: -20% !important;
+    margin-left: 20% !important;
+    font-size: 25px !important;
+    position: absolute !important;
+    margin-left: -70% !important;
+    margin-top: 220% !important;
+   
+}
+.la2 p{
+    width: 40% !important;
+    height: auto !important;
+    color: white !important;
+    margin-left: 10% !important;
+    margin-top: 3% !important;
+    position: absolute !important;
+    margin-left: -70% !important;
+    margin-top: 260% !important;
+   
+}
+.la2 .btn {
+    margin-left: 10% !important;
+    margin-top: 3% !important;
+    border: none !important;
+    position: absolute !important;
+    margin-left: -70% !important;
+    margin-top: 300% !important;
+}
+.la2 .btn:hover
+    {
+        box-shadow: 2px 2px 2px 2px white !important;
+    }
+}
